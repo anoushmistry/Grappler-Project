@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{545CD9EC-22F1-35B6-DBD6-1DCDD4BCC532}</ProjectGuid>
+    <ProjectGuid>{26A37320-FAC4-FD47-BB47-3A71D9D445BE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -59,28 +59,11 @@
     <Compile Include="Assets\Scripts\SpinningObject.cs" />
     <Compile Include="Assets\Scripts\GrapplingRope.cs" />
     <Compile Include="Assets\Scripts\Test1.cs" />
-    <Compile Include="Assets\Polytope Studio\Lowpoly_Demos\Environment_Free\Helpers\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerBehaviour.cs" />
     <Compile Include="Assets\Scripts\GrapplingGun.cs" />
-    <Compile Include="Assets\Polytope Studio\Lowpoly_Demos\Environment_Free\Helpers\MouseLook.cs" />
     <Compile Include="Assets\Scripts\PlayerForce.cs" />
     <Compile Include="Assets\Scripts\PlayerFollowScript.cs" />
     <Compile Include="Assets\Scripts\BackgroundLoop.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Water_Shader_WebGl.shader" />
-    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Plants_Shader.shader" />
-    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Opaque_Shader_VS.shader" />
-    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Opaque_Shader.shader" />
-    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Foliage_Shader.shader" />
-    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Water_Shader.shader" />
-    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Flowers_Shader.shader" />
-    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Rock_Shader_VS.shader" />
-    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Plants_Shader_VS.shader" />
-    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Flowers_Shader_VS.shader" />
-    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Rock_Shader.shader" />
-    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\VS_indirect.cginc" />
-    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Foliage_Shader_VS.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
