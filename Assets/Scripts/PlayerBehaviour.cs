@@ -22,6 +22,8 @@ public class PlayerBehaviour : MonoBehaviour
     public float moveSpeed = 0.6f;
     public bool facingRight = true;
     // Start is called before the first frame update
+
+    public GameManager gameManager;
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
@@ -94,8 +96,10 @@ public class PlayerBehaviour : MonoBehaviour
        
         if (collision.gameObject.CompareTag("Bounds"))
         {
+            gameManager.YouLose();
             gameObject.SetActive(false);
             Debug.Log("Lost!!!!!");
+            
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -107,8 +111,11 @@ public class PlayerBehaviour : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Finish"))
         {
+            gameManager.YouWin();
             gameObject.SetActive(false);
             Debug.Log("Win!!!!!!");
+            
+
         }
     }
 }

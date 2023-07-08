@@ -32,6 +32,7 @@ public class UIManager : MonoBehaviour
 
     }
 
+   
     public void QuitButton()
     {
         Debug.Log("App CLOSED");
