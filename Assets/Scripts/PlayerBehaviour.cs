@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerBehaviour : MonoBehaviour
 {
@@ -17,7 +18,7 @@ public class PlayerBehaviour : MonoBehaviour
 
     public Animator animator;
 
-    static int num = 0;
+    int num = 0;
 
     public float moveSpeed = 0.6f;
     public bool facingRight = true;
@@ -28,6 +29,8 @@ public class PlayerBehaviour : MonoBehaviour
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        score.text = num.ToString();
     }
 
     // Update is called once per frame
@@ -102,11 +105,14 @@ public class PlayerBehaviour : MonoBehaviour
             
         }
     }
+    public TextMeshProUGUI score;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Gems"))
         {
             num++;
+            score.text = num.ToString();
+
             Destroy(collision.gameObject);
         }
         if (collision.gameObject.CompareTag("Finish"))
