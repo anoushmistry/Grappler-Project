@@ -1,0 +1,249 @@
+Using pre-set license
+Built from '2021.3/evg/staging/82bb020e-b03b1330/draft-0' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit ProfessionalWorkstation' Language: 'en' Physical Memory: 16225 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity 2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/Unity Projects/Grappler Project updated/Project Git/Grappler-Project
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+55798
+Successfully changed project path to: D:/Unity Projects/Grappler Project updated/Project Git/Grappler-Project
+D:/Unity Projects/Grappler Project updated/Project Git/Grappler-Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16944] Host "[IP] 192.168.50.17 [Port] 0 [Flags] 2 [Guid] 653899420 [EditorId] 653899420 [Version] 1048832 [Id] WindowsEditor(7,Anoush-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16944] Host "[IP] 192.168.50.17 [Port] 0 [Flags] 2 [Guid] 653899420 [EditorId] 653899420 [Version] 1048832 [Id] WindowsEditor(7,Anoush-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 104.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path D:/Unity 2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Projects/Grappler Project updated/Project Git/Grappler-Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.3640
+Initialize mono
+Mono path[0] = 'D:/Unity 2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity 2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity 2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity 2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity 2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002425 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 116.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.954 seconds
+Domain Reload Profiling:
+	ReloadAssembly (955ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (635ms)
+			LoadAssemblies (175ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (190ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (329ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (117ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (104ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004576 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Grappler Project updated\Project Git\Grappler-Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Grappler Project updated\Project Git\Grappler-Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 105.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.533 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1534ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1244ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (323ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (649ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (369ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5529 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (0.8 MB). Loaded Objects now: 5995.
+Memory consumption went from 226.6 MB to 225.8 MB.
+Total: 3.789600 ms (FindLiveObjects: 0.318600 ms CreateObjectMapping: 0.183600 ms MarkObjects: 2.971100 ms  DeleteObjects: 0.315600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26346.180759 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Shapes/Circle.png
+  artifactKey: Guid(8f66c60fb167a0f4299a9865ef4badc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Shapes/Circle.png using Guid(8f66c60fb167a0f4299a9865ef4badc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a5fb118623060ffedfc84f5053df3b') in 0.120083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.463243 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Shapes/LargeRing.png
+  artifactKey: Guid(8f4ea53398839234fb3e3aceb76b36a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Shapes/LargeRing.png using Guid(8f4ea53398839234fb3e3aceb76b36a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41cfb0b4ccd7908918ce837fbb6c7364') in 0.071497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.538263 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Shapes/Ring.png
+  artifactKey: Guid(f7aaa971d41e8a447afd2674b898bd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Shapes/Ring.png using Guid(f7aaa971d41e8a447afd2674b898bd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979e79dcb08ca5487d33760d58b9d91f') in 0.035684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Shapes/X.png
+  artifactKey: Guid(b077818db7df77e4db729d473295e99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Shapes/X.png using Guid(b077818db7df77e4db729d473295e99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79752c9fdc29de01eb878b48630a5c91') in 0.019300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.586797 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Platforms/Platform_Blue.png
+  artifactKey: Guid(ab30a5ba8bf22d24686375e484b073e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Platforms/Platform_Blue.png using Guid(ab30a5ba8bf22d24686375e484b073e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0725fbff7bd2745fd8135737921ec231') in 0.057789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Platforms/Platform_Vertical_Wood_Small.png
+  artifactKey: Guid(8fa71125fb47e764db3eaad0cd306d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Platforms/Platform_Vertical_Wood_Small.png using Guid(8fa71125fb47e764db3eaad0cd306d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8db1d33f68023d211bc9eb15cb6e84') in 0.072560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Platforms/Platform_Uncolored.png
+  artifactKey: Guid(d58df5b5e36ba884f9c288a3020d48af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Platforms/Platform_Uncolored.png using Guid(d58df5b5e36ba884f9c288a3020d48af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005a38ba5c726027a07c4005d146bba6') in 0.059799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Platforms/Platform_Vertical_Wood.png
+  artifactKey: Guid(7d84c9a0ef474dc42812bf290d722f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Platforms/Platform_Vertical_Wood.png using Guid(7d84c9a0ef474dc42812bf290d722f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7046dc73b2ff3cfefedf4f78ec2416f7') in 0.021461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Platforms/Platform_Wood_Wide.png
+  artifactKey: Guid(93aacd30e6870dc45a5dcafc2d1b3414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Platforms/Platform_Wood_Wide.png using Guid(93aacd30e6870dc45a5dcafc2d1b3414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3032b1453a15ef06ae6da6ac35b6c1e') in 0.027864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Platforms/Platform_Wood.png
+  artifactKey: Guid(6a9b202e9a1f2064b8ddb485c19be1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Platforms/Platform_Wood.png using Guid(6a9b202e9a1f2064b8ddb485c19be1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04605bbc8f25a7b3e104f36d28c9d08d') in 0.034227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Platforms/Platform_Vertical_Uncolored.png
+  artifactKey: Guid(0ddf619ff096ada469471c932a6d03d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Platforms/Platform_Vertical_Uncolored.png using Guid(0ddf619ff096ada469471c932a6d03d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adefe6d3d842cf372cfae5906a94b586') in 0.027826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Platforms/Platform_Outline.png
+  artifactKey: Guid(662d1569d83ae68469880e52c5214ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Platforms/Platform_Outline.png using Guid(662d1569d83ae68469880e52c5214ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34871293addf4217f3029de31547eb88') in 0.027692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Brackeys/2D Mega Pack/Shapes/LargeSquare.png
+  artifactKey: Guid(a28960bf12ee0ef439f0a3de86162ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brackeys/2D Mega Pack/Shapes/LargeSquare.png using Guid(a28960bf12ee0ef439f0a3de86162ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f81a57cfeef8d3b746fa7072799b12a') in 0.223324 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

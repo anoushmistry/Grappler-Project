@@ -6,36 +6,50 @@ using TMPro;
 public class PlayerBehaviour : MonoBehaviour
 {
     private Rigidbody2D rb;
-    [SerializeField] private float jumpForce = 5f;
+   
+    [Header("Ground")]
     private bool isGrounded;
     public Transform groundCheck;
     public float checkRadius;
     public LayerMask whatisGround;
+
+   [Header("Rope reference: ")]
    [SerializeField] private GrapplingRope grapplingRope;
 
+
+    [Header("Jump Values :")]
     private int extraJumps;
     public int extraJumpsValue;
+    [SerializeField] private float jumpForce = 5f;
 
+    [Header("Animator :")]
     public Animator animator;
 
-    int num = 0;
+    [Header("Audio Sources")]
+    public AudioSource backgroundNoise;
+    public AudioSource jumpSound;
+    int scorenum = 0;
 
+    [Header("Player properties:")]
     public float moveSpeed = 0.6f;
     public bool facingRight = true;
     // Start is called before the first frame update
 
     public GameManager gameManager;
+
+    public TextMeshProUGUI score;
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 
-        score.text = num.ToString();
+        score.text = scorenum.ToString();
     }
 
     // Update is called once per frame
     void Update()
     {
+        backgroundNoise.Play();
         if (grapplingRope.isGrappling == false && isGrounded == true)
         {
             float moveX = Input.GetAxis("Horizontal");
@@ -70,13 +84,14 @@ public class PlayerBehaviour : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && extraJumps > 0)
         {
             Debug.Log("Space pressed");
-            
+            jumpSound.Play();
             rb.velocity = Vector2.up * jumpForce;
             animator.SetFloat("VerSpeed", Mathf.Abs(rb.velocity.y));
             extraJumps--;
         }
         else if (Input.GetKeyDown(KeyCode.Space) && extraJumps == 0 && isGrounded == true)
         {
+            jumpSound.Play();
             rb.velocity = Vector2.up * jumpForce;
         }
     }
@@ -105,13 +120,13 @@ public class PlayerBehaviour : MonoBehaviour
             
         }
     }
-    public TextMeshProUGUI score;
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Gems"))
         {
-            num++;
-            score.text = num.ToString();
+            scorenum++;
+            score.text = scorenum.ToString();
 
             Destroy(collision.gameObject);
         }
