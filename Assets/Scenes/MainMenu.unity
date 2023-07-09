@@ -3478,9 +3478,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "You can grapple to objects like platforms, rocks, boxes etc. You cannot
-    grapple to collectibles and Asteroids\nWe can add forces using physics launch\nWe
-    cannot add force using Transform launch\nAvoid the red boundries\nWatch out for
-    character clues \n \n"
+    grapple to collectibles and Asteroids\nWe can add forces when using Physics launch\nWe
+    cannot add forces when using Transform launch\nAvoid the red boundries\nWatch
+    out for character clues \n \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}

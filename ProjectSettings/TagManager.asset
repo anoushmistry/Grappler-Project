@@ -8,6 +8,7 @@ TagManager:
   - Bounds
   - Asteroid
   - Score
+  - Spinning Obstacle
   layers:
   - Default
   - TransparentFX

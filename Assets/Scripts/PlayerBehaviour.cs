@@ -119,6 +119,14 @@ public class PlayerBehaviour : MonoBehaviour
             Debug.Log("Lost!!!!!");
             
         }
+        if (collision.gameObject.CompareTag("Spinning Obstacle"))
+        {
+            gameManager.YouLose();
+            gameObject.SetActive(false);
+            Debug.Log("Lost!!!!!");
+
+        }
+
     }
     
     private void OnTriggerEnter2D(Collider2D collision)

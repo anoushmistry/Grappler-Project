@@ -7,7 +7,8 @@ public class AsteroidScript : MonoBehaviour
     // Start is called before the first frame update
 
     public Rigidbody2D asteroidRb;
-    public float asteroidSpeed;
+    public float asteroidSpeedx;
+    public float asteroidSpeedy;
 
     [SerializeField] private Animator animator;
     public GameManager gm;
@@ -19,7 +20,7 @@ public class AsteroidScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        asteroidRb.velocity = new Vector2(asteroidSpeed, asteroidSpeed);
+        asteroidRb.velocity = new Vector2(asteroidSpeedx, asteroidSpeedy);
         animator.SetFloat("AsteroidSpeed", Mathf.Abs(asteroidRb.velocity.x));
     }
     private void OnCollisionEnter2D(Collision2D collision)

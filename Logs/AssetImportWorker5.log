@@ -1,0 +1,237 @@
+Using pre-set license
+Built from '2021.3/evg/staging/82bb020e-b03b1330/draft-0' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit ProfessionalWorkstation' Language: 'en' Physical Memory: 16225 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity 2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+D:/Unity Projects/Grappler Project updated/Project Git/Grappler-Project
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+56745
+Successfully changed project path to: D:/Unity Projects/Grappler Project updated/Project Git/Grappler-Project
+D:/Unity Projects/Grappler Project updated/Project Git/Grappler-Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [47472] Host "[IP] 192.168.50.17 [Port] 0 [Flags] 2 [Guid] 3389294854 [EditorId] 3389294854 [Version] 1048832 [Id] WindowsEditor(7,Anoush-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [47472] Host "[IP] 192.168.50.17 [Port] 0 [Flags] 2 [Guid] 3389294854 [EditorId] 3389294854 [Version] 1048832 [Id] WindowsEditor(7,Anoush-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 152.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path D:/Unity 2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Projects/Grappler Project updated/Project Git/Grappler-Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.3640
+Initialize mono
+Mono path[0] = 'D:/Unity 2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity 2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity 2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity 2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity 2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001783 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 91.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.575 seconds
+Domain Reload Profiling:
+	ReloadAssembly (576ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (403ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (98ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (241ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (82ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004393 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Grappler Project updated\Project Git\Grappler-Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Grappler Project updated\Project Git\Grappler-Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 88.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.197 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1197ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1026ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (575ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (326ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5530 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (0.8 MB). Loaded Objects now: 5996.
+Memory consumption went from 226.6 MB to 225.8 MB.
+Total: 3.474500 ms (FindLiveObjects: 0.322000 ms CreateObjectMapping: 0.183600 ms MarkObjects: 2.682100 ms  DeleteObjects: 0.285900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 43259.807347 seconds.
+  path: Assets/Game Assets (Added by Anoush)/Cartoon_planet-removebg-preview.png
+  artifactKey: Guid(fd366ff60ee990b498c63b6471cfe81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets (Added by Anoush)/Cartoon_planet-removebg-preview.png using Guid(fd366ff60ee990b498c63b6471cfe81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f050be70262eaf7d3229577eaaf5a698') in 0.109527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.482978 seconds.
+  path: Assets/Game Assets (Added by Anoush)/GrapplingRopeMaterial.mat
+  artifactKey: Guid(48ebf9b04e7648d4d8f02c59c664c760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets (Added by Anoush)/GrapplingRopeMaterial.mat using Guid(48ebf9b04e7648d4d8f02c59c664c760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b997b982b88a33be11264a4a723818fa') in 0.037028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.545593 seconds.
+  path: Assets/Game Assets (Added by Anoush)/Planet.png
+  artifactKey: Guid(e65e8803b8637e845ab81a328a691143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets (Added by Anoush)/Planet.png using Guid(e65e8803b8637e845ab81a328a691143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d2d7b2836633ce46e6da90dd2ba3aa') in 0.038308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.551841 seconds.
+  path: Assets/Game Assets (Added by Anoush)/Platform_Outline.png
+  artifactKey: Guid(7676b6caec989ae4792190c2bd7deb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets (Added by Anoush)/Platform_Outline.png using Guid(7676b6caec989ae4792190c2bd7deb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78237f4f74564676b556b48c4509da07') in 0.019844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Game Assets (Added by Anoush)/Platform_Vertical_Blue.png
+  artifactKey: Guid(3a84649ad40a2ec4989e720a38dac168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets (Added by Anoush)/Platform_Vertical_Blue.png using Guid(3a84649ad40a2ec4989e720a38dac168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d8e5b4b76d68acc05ffdf6daedf2f0') in 0.017367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Game Assets (Added by Anoush)/Platform_Vertical_Wood_Small.png
+  artifactKey: Guid(a5e59792bb95f614a8cb7a78b4a86ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets (Added by Anoush)/Platform_Vertical_Wood_Small.png using Guid(a5e59792bb95f614a8cb7a78b4a86ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a98841cf78a09ca968945844377bd0') in 0.019394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Game Assets (Added by Anoush)/Polygon 1 copy.psb
+  artifactKey: Guid(9a0f448e63bdc6b4587c49f9b10293c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets (Added by Anoush)/Polygon 1 copy.psb using Guid(9a0f448e63bdc6b4587c49f9b10293c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606b432797c44f32b3c82878c2793b05') in 0.087609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Game Assets (Added by Anoush)/Grapple_Gun_sample-removebg.png
+  artifactKey: Guid(2dfcb787a881cda4091608a1ae64725b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets (Added by Anoush)/Grapple_Gun_sample-removebg.png using Guid(2dfcb787a881cda4091608a1ae64725b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e89842dbcd52f09feacb8194a8ee42') in 0.039322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Game Assets (Added by Anoush)/Platform_Blue_Wide.png
+  artifactKey: Guid(f13c628e21a5a6a4caae766983ac9e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets (Added by Anoush)/Platform_Blue_Wide.png using Guid(f13c628e21a5a6a4caae766983ac9e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b771a20586998a65ed2a17c042fe6f') in 0.022970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Game Assets (Added by Anoush)/Platform_Vertical_Uncolored.png
+  artifactKey: Guid(9b8327670011d054199f46b0d728b2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets (Added by Anoush)/Platform_Vertical_Uncolored.png using Guid(9b8327670011d054199f46b0d728b2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555da89afad1a8dce235a81ea42b0ceb') in 0.010792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Game Assets (Added by Anoush)/Platform_Blue.png
+  artifactKey: Guid(591b8f1532843aa4496d18ce823391e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets (Added by Anoush)/Platform_Blue.png using Guid(591b8f1532843aa4496d18ce823391e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545f3a7e33920d75baa1ed0979082c90') in 0.013850 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
