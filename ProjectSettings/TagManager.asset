@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Gems
   - Bounds
+  - Asteroid
   layers:
   - Default
   - TransparentFX
@@ -13,11 +14,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Bounds
+  - Player
   - Ground
   - Grappleable
-  - 
+  - Asteroid
   - 
   - 
   - 
