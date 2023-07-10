@@ -2753,7 +2753,7 @@ GameObject:
   - component: {fileID: 453471401}
   - component: {fileID: 453471403}
   - component: {fileID: 453471402}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Platform_Blue_Wide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3367,7 +3367,7 @@ GameObject:
   - component: {fileID: 555669130}
   - component: {fileID: 555669132}
   - component: {fileID: 555669131}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Platform_Vertical_Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
