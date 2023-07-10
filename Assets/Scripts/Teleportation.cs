@@ -4,20 +4,30 @@ using UnityEngine;
 
 public class Teleportation : MonoBehaviour
 {
+    public GrapplingRope ropeReference;
     public GameObject player;
     public Transform Destination;
 
     public AudioSource TPSound;
+    public Vector3 addPos;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (ropeReference.isGrappling == false)
         {
-            if (Vector2.Distance(player.transform.position, transform.position) > 0.3f)
+            if (collision.gameObject.CompareTag("Player"))
             {
-                player.transform.position = Destination.position;
-                TPSound.Play();
+                if (Vector2.Distance(player.transform.position, transform.position) > 0.3f)
+                {
+                    player.transform.position = Destination.position + addPos;
+                    TPSound.Play();
+                }
             }
         }
+        else
+        {
+            gameObject.SetActive(false);
+        }
+        }
     }
-}
+  

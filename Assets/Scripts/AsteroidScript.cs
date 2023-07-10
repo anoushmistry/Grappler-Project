@@ -6,6 +6,7 @@ public class AsteroidScript : MonoBehaviour
 {
     // Start is called before the first frame update
 
+    public PlayerBehaviour pb;
     public Rigidbody2D asteroidRb;
     public float asteroidSpeedx;
     public float asteroidSpeedy;
@@ -27,6 +28,7 @@ public class AsteroidScript : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Player"))
         {
+            pb.deathSound.Play();
             collision.transform.gameObject.SetActive(false);
             gm.YouLose();
         }

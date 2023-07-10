@@ -28,6 +28,9 @@ public class PlayerBehaviour : MonoBehaviour
     [Header("Audio Sources")]
     public AudioSource backgroundNoise;
     public AudioSource jumpSound;
+    public AudioSource deathSound;
+
+    
     int scorenum = 0;
 
     [Header("Player properties:")]
@@ -114,6 +117,7 @@ public class PlayerBehaviour : MonoBehaviour
        
         if (collision.gameObject.CompareTag("Bounds"))
         {
+            deathSound.Play();
             gameManager.YouLose();
             gameObject.SetActive(false);
             Debug.Log("Lost!!!!!");
@@ -121,6 +125,7 @@ public class PlayerBehaviour : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Spinning Obstacle"))
         {
+            deathSound.Play();
             gameManager.YouLose();
             gameObject.SetActive(false);
             Debug.Log("Lost!!!!!");
