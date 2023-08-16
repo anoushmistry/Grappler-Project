@@ -41,8 +41,11 @@ public class PlayerBehaviour : MonoBehaviour
     public GameManager gameManager;
 
     public TextMeshProUGUI score;
+
+    public SpriteRenderer sp;
     void Start()
     {
+        sp = gameObject.GetComponent<SpriteRenderer>();
         rb = gameObject.GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 
@@ -61,13 +64,17 @@ public class PlayerBehaviour : MonoBehaviour
             rb.velocity = new Vector2(moveX * moveSpeed, rb.velocity.y);
 
             // Flip the player's sprite if moving in the opposite direction
-            if (moveX < 0 && facingRight)
+            if (moveX < 0 )
             {
                 //  Flip();
+                sp.flipX = true;
+                
             }
-            else if (moveX > 0 && !facingRight)
+            else if (moveX > 0)
             {
                 //Flip();
+                sp.flipX = false;
+
             }
 
             //Update the animator's parameters for controlling animations

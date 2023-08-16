@@ -387,6 +387,7 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/Arjun Scripts/GameManager.cs"
+"Assets/Scripts/Arjun Scripts/GunFlip.cs"
 "Assets/Scripts/Arjun Scripts/LevelSelector.cs"
 "Assets/Scripts/Arjun Scripts/UIAstronaut.cs"
 "Assets/Scripts/Arjun Scripts/UIManager.cs"
