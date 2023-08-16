@@ -116,7 +116,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 48ebf9b04e7648d4d8f02c59c664c760, type: 2}
+  - {fileID: 2100000, guid: baf1681aef84ec941a8e73e750c85917, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -432,7 +432,7 @@ SpringJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: -5.8418913, y: -0.36767146}
   m_AutoConfigureDistance: 1
-  m_Distance: 22.459625
+  m_Distance: 5.0319953
   m_DampingRatio: 1
   m_Frequency: 1
 --- !u!114 &6236784378715682029

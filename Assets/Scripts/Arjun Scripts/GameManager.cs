@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
 
     public static bool GameIsPaused = false;
     public GameObject pauseMenu;
+    public GameObject controlsMenu;
 
     private void Update()
     {
@@ -56,6 +57,18 @@ public class GameManager : MonoBehaviour
     {
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    public void ControlsMenu()
+    {
+        controlsMenu.SetActive(true);
+        pauseMenu.SetActive(false);
+
+    }
+    public void BackButton()
+    {
+        controlsMenu.SetActive(false);
+        pauseMenu.SetActive(true);
+
     }
 
     public void YouWin()
