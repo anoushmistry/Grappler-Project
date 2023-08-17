@@ -13968,6 +13968,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1432319157}
     - target: {fileID: 7778197291220082172, guid: f03beee7dbabd864480feadbe58b1335, type: 3}
+      propertyPath: pb
+      value: 
+      objectReference: {fileID: 6236784379613394706}
+    - target: {fileID: 7778197291220082172, guid: f03beee7dbabd864480feadbe58b1335, type: 3}
       propertyPath: asteroidSpeedx
       value: 2
       objectReference: {fileID: 0}
@@ -18326,6 +18330,10 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 1432319157}
+    - target: {fileID: 7778197291220082172, guid: f03beee7dbabd864480feadbe58b1335, type: 3}
+      propertyPath: pb
+      value: 
+      objectReference: {fileID: 6236784379613394706}
     - target: {fileID: 7778197291220082175, guid: f03beee7dbabd864480feadbe58b1335, type: 3}
       propertyPath: m_RootOrder
       value: 5
