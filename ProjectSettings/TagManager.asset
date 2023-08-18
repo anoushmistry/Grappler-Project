@@ -9,19 +9,21 @@ TagManager:
   - Asteroid
   - Score
   - Spinning Obstacle
+  - UFO
+  - Grappleable
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - UFO
   - Water
   - UI
   - Bounds
   - Player
   - Ground
   - Grappleable
-  - Asteroid
-  - Post Processing
+  - Asteroids
+  - 
   - 
   - 
   - 

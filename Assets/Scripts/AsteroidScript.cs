@@ -26,12 +26,7 @@ public class AsteroidScript : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.CompareTag("Player"))
-        {
-            pb.deathSound.Play();
-            collision.transform.gameObject.SetActive(false);
-            gm.YouLose();
-        }
+        
         if(collision.gameObject.CompareTag("Bounds"))
         {
             gameObject.SetActive(false);

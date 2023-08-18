@@ -29,5 +29,6 @@ public class Teleportation : MonoBehaviour
             gameObject.SetActive(false);
         }
         }
+
     }
   

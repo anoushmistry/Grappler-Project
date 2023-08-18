@@ -432,7 +432,7 @@ SpringJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: -5.8418913, y: -0.36767146}
   m_AutoConfigureDistance: 1
-  m_Distance: 5.0319953
+  m_Distance: 38.632523
   m_DampingRatio: 1
   m_Frequency: 1
 --- !u!114 &6236784378715682029
@@ -1035,7 +1035,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6236784379310005461}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0

@@ -402,6 +402,7 @@
 "Assets/Scripts/ScaleController.cs"
 "Assets/Scripts/SpinningObject.cs"
 "Assets/Scripts/Teleportation.cs"
+"Assets/Scripts/UFOScript.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"

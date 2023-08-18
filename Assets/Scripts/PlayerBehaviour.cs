@@ -124,19 +124,20 @@ public class PlayerBehaviour : MonoBehaviour
        
         if (collision.gameObject.CompareTag("Bounds"))
         {
-            deathSound.Play();
-            gameManager.YouLose();
-            gameObject.SetActive(false);
-            Debug.Log("Lost!!!!!");
-            
+            StartCoroutine(WaitPriorLevelFail(0.25f));
         }
         if (collision.gameObject.CompareTag("Spinning Obstacle"))
         {
-            deathSound.Play();
-            gameManager.YouLose();
-            gameObject.SetActive(false);
-            Debug.Log("Lost!!!!!");
-
+            StartCoroutine(WaitPriorLevelFail(0.25f));
+        }
+        if(collision.gameObject.CompareTag("UFO"))
+        {
+          
+            StartCoroutine(WaitPriorLevelFail(0.5f));
+        }
+        if (collision.gameObject.CompareTag("Asteroid"))
+        {
+            StartCoroutine(WaitPriorLevelFail(0.25f));
         }
 
     }
@@ -158,5 +159,15 @@ public class PlayerBehaviour : MonoBehaviour
             
 
         }
+    }
+    private IEnumerator WaitPriorLevelFail(float WaitforSecs)
+    {
+        gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        deathSound.Play();
+        yield return new WaitForSeconds(WaitforSecs);
+        gameManager.YouLose();
+        gameObject.SetActive(false);
+        Debug.Log("Lost!!!!!");
+       
     }
 }

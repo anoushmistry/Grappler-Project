@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2383569405234948153}
   m_Layer: 9
   m_Name: Platform_Pink_Wide
-  m_TagString: Untagged
+  m_TagString: Grappleable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
