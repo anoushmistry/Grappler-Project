@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -13,6 +14,14 @@ public class GameManager : MonoBehaviour
     public GameObject pauseMenu;
     public GameObject controlsMenu;
 
+    [SerializeField] GameObject InstPanel;
+    public TextMeshProUGUI Instruction;
+    public int TotalDiamondsToCollect;
+
+    private void Start()
+    {
+        StartCoroutine(StartInstruction());
+    }
     private void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape))
@@ -80,6 +89,16 @@ public class GameManager : MonoBehaviour
     {
         youLoseScreen.SetActive(true);
         UIImage.SetActive(true);
+
+    }
+    IEnumerator StartInstruction()
+    {
+        InstPanel.SetActive(true);
+        Instruction.text = TotalDiamondsToCollect.ToString();
+        yield return new WaitForSeconds(3f);
+        InstPanel.SetActive(false);
+
+
 
     }
 

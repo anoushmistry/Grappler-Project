@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public enum LaunchType
 {
@@ -57,6 +58,10 @@ public class GrapplingGun : MonoBehaviour
     [SerializeField] private AudioSource grappleEquip;
     [SerializeField] private AudioSource grappleDetach;
 
+    public TextMeshProUGUI launchTypetxt;
+
+
+
     private void Start()
     {
         grappleRope.enabled = false;
@@ -71,10 +76,13 @@ public class GrapplingGun : MonoBehaviour
             if(launchType == LaunchType.Physics_Launch)
             {
                 launchType = LaunchType.Transform_Launch;
+                launchTypetxt.text = "Transform";
             }
             else
             {   
                 launchType = LaunchType.Physics_Launch;
+                launchTypetxt.text = "Physics";
+
             }
         }
         if (Input.GetKeyDown(KeyCode.Mouse0))

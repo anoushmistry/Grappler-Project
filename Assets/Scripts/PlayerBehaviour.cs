@@ -43,6 +43,9 @@ public class PlayerBehaviour : MonoBehaviour
     public TextMeshProUGUI score;
 
     public SpriteRenderer sp;
+
+    public int totalDiamonds;
+    public int numberOfDiamondsToCollect;
     void Start()
     {
         sp = gameObject.GetComponent<SpriteRenderer>();
@@ -146,6 +149,7 @@ public class PlayerBehaviour : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Gems"))
         {
+            numberOfDiamondsToCollect--;
             scorenum++;
             score.text = scorenum.ToString();
 
@@ -153,9 +157,17 @@ public class PlayerBehaviour : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Finish"))
         {
-            gameManager.YouWin();
-            gameObject.SetActive(false);
-            Debug.Log("Win!!!!!!");
+            if (numberOfDiamondsToCollect <= 0)
+            {
+
+                gameManager.YouWin();
+                gameObject.SetActive(false);
+                Debug.Log("Win!!!!!!");
+            }
+            else
+            {
+                Debug.Log("not enough diamonds collected");
+            }
             
 
         }
