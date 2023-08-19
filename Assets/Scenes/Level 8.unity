@@ -12205,7 +12205,7 @@ MonoBehaviour:
   controlsMenu: {fileID: 243426039}
   InstPanel: {fileID: 1502770647}
   Instruction: {fileID: 1867399057}
-  TotalDiamondsToCollect: 6
+  TotalDiamondsToCollect: 5
 --- !u!1 &1433852341
 GameObject:
   m_ObjectHideFlags: 0
