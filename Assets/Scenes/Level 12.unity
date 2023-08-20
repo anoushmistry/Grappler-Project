@@ -21441,7 +21441,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6236784379355543326, guid: 0a09e9175d628134b808717b9985a201, type: 3}
       propertyPath: numberOfDiamondsToCollect
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6236784379495385706, guid: 0a09e9175d628134b808717b9985a201, type: 3}
       propertyPath: m_RootOrder
