@@ -11773,8 +11773,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1526074905}
-  m_RootOrder: 1
+  m_Father: {fileID: 1648525456}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -13127,6 +13127,8 @@ MonoBehaviour:
   InstPanel: {fileID: 1526074904}
   Instruction: {fileID: 1289257947}
   TotalDiamondsToCollect: 5
+  gameEndScreen: {fileID: 0}
+  credits: {fileID: 0}
 --- !u!1001 &1444552240
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13978,7 +13980,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1648525456}
-  - {fileID: 1289257949}
   m_Father: {fileID: 1427629097}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15229,13 +15230,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1289257949}
   m_Father: {fileID: 1526074905}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000015258578, y: 0}
+  m_AnchoredPosition: {x: -0.000015258578, y: 446}
   m_SizeDelta: {x: 1002.3702, y: 108.43}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1648525457
@@ -18345,6 +18347,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -362.436
       objectReference: {fileID: 0}
+    - target: {fileID: 6380322650689489067, guid: 3f219b7a0f0773a40b831c4064e72cdd, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6380322650689489236, guid: 3f219b7a0f0773a40b831c4064e72cdd, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -18367,7 +18373,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6380322650689489236, guid: 3f219b7a0f0773a40b831c4064e72cdd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -14.600731
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 6380322650689489236, guid: 3f219b7a0f0773a40b831c4064e72cdd, type: 3}
       propertyPath: m_LocalRotation.w

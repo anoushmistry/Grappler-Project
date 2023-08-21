@@ -10,14 +10,20 @@ public class UIManager : MonoBehaviour
     public GameObject optionsScreen;
     public GameObject levelScreen;
     public GameObject InstructionScreen;
+    public GameObject StoryScreen;
+    public GameObject mainBg;
+    public GameObject secondBg;
 
 
     public void PlayButton()
     {
         mainMenuScreen.SetActive(false);
         optionsScreen.SetActive(false);
-        levelScreen.SetActive(true);
+        levelScreen.SetActive(false);
         InstructionScreen.SetActive(false);
+        StoryScreen.SetActive(true);
+        secondBg.SetActive(true);
+
 
     }
     public void OptionsButton()
@@ -26,7 +32,9 @@ public class UIManager : MonoBehaviour
         optionsScreen.SetActive(true);
         levelScreen.SetActive(false);
         InstructionScreen.SetActive(false);
-
+        StoryScreen.SetActive(false);
+        mainBg.SetActive(false);
+        secondBg.SetActive(true);
 
     }
     public void InstructionsButton()
@@ -35,6 +43,12 @@ public class UIManager : MonoBehaviour
         optionsScreen.SetActive(false);
         levelScreen.SetActive(false);
         InstructionScreen.SetActive(true);
+        StoryScreen.SetActive(false);
+        mainBg.SetActive(false);
+        secondBg.SetActive(true);
+
+
+
 
 
     }
@@ -44,6 +58,23 @@ public class UIManager : MonoBehaviour
         optionsScreen.SetActive(false);
         levelScreen.SetActive(false);
         InstructionScreen.SetActive(false);
+        StoryScreen.SetActive(false);
+        mainBg.SetActive(true);
+        secondBg.SetActive(false);
+
+
+
+
+
+    }
+    public void NextButton()
+    {
+        mainMenuScreen.SetActive(false);
+        optionsScreen.SetActive(false);
+        levelScreen.SetActive(true);
+        InstructionScreen.SetActive(false);
+        StoryScreen.SetActive(false);
+
 
 
     }

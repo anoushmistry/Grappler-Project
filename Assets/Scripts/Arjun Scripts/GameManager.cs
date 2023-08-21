@@ -18,8 +18,13 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI Instruction;
     public int TotalDiamondsToCollect;
 
+    public GameObject gameEndScreen;
+    public GameObject credits;
+
     private void Start()
     {
+        InstPanel.SetActive(true);
+
         StartCoroutine(StartInstruction());
     }
     private void Update()
@@ -39,6 +44,7 @@ public class GameManager : MonoBehaviour
     public void Pause()
     {
         pauseMenu.SetActive(true);
+        InstPanel.SetActive(false);
         Time.timeScale = 0;
         GameIsPaused = true;
 
@@ -67,6 +73,11 @@ public class GameManager : MonoBehaviour
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+    public void NextButton()
+    {
+        gameEndScreen.SetActive(false);
+        credits.SetActive(true);
+    }
     public void ControlsMenu()
     {
         controlsMenu.SetActive(true);
@@ -82,7 +93,16 @@ public class GameManager : MonoBehaviour
 
     public void YouWin()
     {
-        youWinScreen.SetActive(true);
+
+        
+        if(SceneManager.GetActiveScene().buildIndex == 15)
+        {
+            gameEndScreen.SetActive(true);
+        }
+        else
+        {
+            youWinScreen.SetActive(true);
+        }    
         
     }
     public void YouLose()

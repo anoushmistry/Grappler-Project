@@ -11482,13 +11482,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1867399059}
   m_Father: {fileID: 1502770648}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000015258578, y: 0}
+  m_AnchoredPosition: {x: -0.000015258578, y: 435}
   m_SizeDelta: {x: 1002.3702, y: 108.43}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1394513925
@@ -12206,6 +12207,8 @@ MonoBehaviour:
   InstPanel: {fileID: 1502770647}
   Instruction: {fileID: 1867399057}
   TotalDiamondsToCollect: 5
+  gameEndScreen: {fileID: 0}
+  credits: {fileID: 0}
 --- !u!1 &1433852341
 GameObject:
   m_ObjectHideFlags: 0
@@ -13156,7 +13159,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1394513924}
-  - {fileID: 1867399059}
   m_Father: {fileID: 1427629097}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -17194,8 +17196,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1502770648}
-  m_RootOrder: 1
+  m_Father: {fileID: 1394513924}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -19847,7 +19849,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6236784379355543326, guid: 0a09e9175d628134b808717b9985a201, type: 3}
       propertyPath: numberOfDiamondsToCollect
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6236784379495385706, guid: 0a09e9175d628134b808717b9985a201, type: 3}
       propertyPath: m_RootOrder

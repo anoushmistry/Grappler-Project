@@ -11,6 +11,7 @@ TagManager:
   - Spinning Obstacle
   - UFO
   - Grappleable
+  - IPanel
   layers:
   - Default
   - TransparentFX
