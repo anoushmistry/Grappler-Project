@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{26A37320-FAC4-FD47-BB47-3A71D9D445BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OccaSoftware.Crosshairs.Editor", "OccaSoftware.Crosshairs.Editor.csproj", "{AC9946BC-55CA-2705-03F7-E3513395FC38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{26A37320-FAC4-FD47-BB47-3A71D9D445BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26A37320-FAC4-FD47-BB47-3A71D9D445BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26A37320-FAC4-FD47-BB47-3A71D9D445BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC9946BC-55CA-2705-03F7-E3513395FC38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC9946BC-55CA-2705-03F7-E3513395FC38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC9946BC-55CA-2705-03F7-E3513395FC38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC9946BC-55CA-2705-03F7-E3513395FC38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
