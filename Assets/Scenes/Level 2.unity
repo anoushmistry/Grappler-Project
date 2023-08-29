@@ -5601,11 +5601,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 568107192123901369, guid: fb87253cdd175e04c95d426fc8cba84a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -28.310001
+      value: 10.14
       objectReference: {fileID: 0}
     - target: {fileID: 568107192123901369, guid: fb87253cdd175e04c95d426fc8cba84a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.949999
+      value: -15.48
       objectReference: {fileID: 0}
     - target: {fileID: 568107192123901369, guid: fb87253cdd175e04c95d426fc8cba84a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6832,11 +6832,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 568107192123901369, guid: fb87253cdd175e04c95d426fc8cba84a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.64
+      value: -19.72
       objectReference: {fileID: 0}
     - target: {fileID: 568107192123901369, guid: fb87253cdd175e04c95d426fc8cba84a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.12
+      value: -0.56
       objectReference: {fileID: 0}
     - target: {fileID: 568107192123901369, guid: fb87253cdd175e04c95d426fc8cba84a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9267,11 +9267,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 568107192123901369, guid: fb87253cdd175e04c95d426fc8cba84a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -38.11
+      value: 20.19
       objectReference: {fileID: 0}
     - target: {fileID: 568107192123901369, guid: fb87253cdd175e04c95d426fc8cba84a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -16.46
+      value: -11.77
       objectReference: {fileID: 0}
     - target: {fileID: 568107192123901369, guid: fb87253cdd175e04c95d426fc8cba84a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -12129,6 +12129,8 @@ MonoBehaviour:
   InstPanel: {fileID: 554274551}
   Instruction: {fileID: 132798194}
   TotalDiamondsToCollect: 3
+  gameEndScreen: {fileID: 0}
+  credits: {fileID: 0}
 --- !u!4 &1432639122 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 568107192123901369, guid: fb87253cdd175e04c95d426fc8cba84a, type: 3}
@@ -17286,7 +17288,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 568107192123901369, guid: fb87253cdd175e04c95d426fc8cba84a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.4952652
+      value: 9.85
       objectReference: {fileID: 0}
     - target: {fileID: 568107192123901369, guid: fb87253cdd175e04c95d426fc8cba84a, type: 3}
       propertyPath: m_LocalPosition.y

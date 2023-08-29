@@ -12005,6 +12005,8 @@ MonoBehaviour:
   InstPanel: {fileID: 1554082003}
   Instruction: {fileID: 480859809}
   TotalDiamondsToCollect: 9
+  gameEndScreen: {fileID: 0}
+  credits: {fileID: 0}
 --- !u!1 &1473933758
 GameObject:
   m_ObjectHideFlags: 0

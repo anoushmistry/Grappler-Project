@@ -15,13 +15,11 @@ public class CursorManager : MonoBehaviour
       
         cursorHotspot = new Vector2(crosshairTexture.width / 2, crosshairTexture.height / 2);
         Cursor.SetCursor(crosshairTexture, cursorHotspot, CursorMode.Auto);
+       
     }
     private void Update()
     {
-        if(gm.pauseMenu == true)
-        {
-            Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
-        }
+        Cursor.SetCursor(crosshairTexture, cursorHotspot, CursorMode.Auto);
     }
 
 }

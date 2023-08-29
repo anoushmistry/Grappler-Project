@@ -12601,6 +12601,8 @@ MonoBehaviour:
   InstPanel: {fileID: 1526074904}
   Instruction: {fileID: 1289257947}
   TotalDiamondsToCollect: 7
+  gameEndScreen: {fileID: 0}
+  credits: {fileID: 0}
 --- !u!1 &1458288444
 GameObject:
   m_ObjectHideFlags: 0
@@ -18917,7 +18919,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6236784379355543326, guid: 0a09e9175d628134b808717b9985a201, type: 3}
       propertyPath: numberOfDiamondsToCollect
-      value: 9
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6236784379495385706, guid: 0a09e9175d628134b808717b9985a201, type: 3}
       propertyPath: m_RootOrder
